@@ -1,0 +1,37 @@
+body {
+  background: #1E352F;
+}
+
+input {
+  text-transform: lowercase;
+  font-size: 1.3em;
+}
+
+button {
+  font-size: 1.1em;
+}
+
+#textDisplay {
+  height: 150px;
+  width: auto;
+  background: #828C51;
+  margin-right: 28px;
+  margin-bottom: 30px;
+  padding-top: 10%;
+  text-align: center;
+  font-size: 2em;
+}
+
+#inputArea {
+  text-align: center;
+
+}
+
+.container {
+  padding-top: 20px;
+  padding-left: 20px;
+  background: #A6C36F;
+  margin: auto;
+  max-width: 600px;
+  height: 1000px;
+}
