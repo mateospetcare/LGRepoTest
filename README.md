@@ -1,10 +1,16 @@
 ```
-Write a function that takes in a string and reverses it. 
+**_Practicing Github workflow in a Team setting._**
 
-function reverse(string) {
+Contributors : Robert, Mateo, James, Baibhav
 
-//todo
+1 Page Web application that takes userInput and reverse/swap/shuffle it. 
 
+HTML and CSS complete. 
 
-}
+Swap Letters is now working. 
+
+Reverse Letters coming soon...
+
+Shuffle Letters coming soon...
+
 ```
