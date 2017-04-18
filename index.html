@@ -2,9 +2,38 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Reverse, Shuffle Or Swap</title>
+    <!-- Connect css stylesheet -->
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
+    <div class="container">
+      <div id="textDisplay">
+
+      </div>
+      <div id="inputArea">
+        <label>Input Text: </label>
+        <input type="text">
+        <button onclick="callFunction('robert')">Reverse</button>
+        <button onclick="callFunction('james')">Shuffle</button>
+        <button onclick="callFunction('mateo')">Swap</button>
+        <button onclick="reset()">Reset</button>
+
+      </div>
+    </div>
+
+    <!-- Call appropriate functions -->
+    <script type="text/javascript">
+      function callFunction(functionName) {
+          var userInput = document.querySelector('input').value.toLowerCase();
+          document.querySelector('#textDisplay')
+                      .textContent = window[functionName](userInput);
+      }
+    </script>
+
+  <!-- Connect JS file   -->
+  <script type="text/javascript" src="script.js">
+  </script>
 
   </body>
 </html>
