@@ -3,14 +3,14 @@
 
 Contributors : Robert, Mateo, James, Baibhav
 
-1 Page Web application that takes userInput and reverse/swap/shuffle it. 
+1 Page Web application that takes userInput and reverse/swap/shuffle it.
 
-HTML and CSS complete. 
+HTML and CSS complete.
 
-Swap Letters is now working. 
+Swap Letters is now working.
 
 Reverse Letters coming soon...
 
-Shuffle Letters coming soon...
+Shuffle Letters is now working.
 
 ```
