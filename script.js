@@ -1,14 +1,23 @@
+//Reset Function
+function reset() {
+  document.querySelector('input').value = '';
+  document.querySelector('#textDisplay').textContent = '';
+}
+
 //Function reverses the input string
-function reverse(string) {
+function robert(string) {
   //todo
+  return string;
 }
 
 //Function shuffles the input string
-function shuffle(string) {
+function james(string) {
 //todo
+return string;
 }
 
 //swaps a->z, b->y and so on.
-function swapLetters(string) {
+function mateo(string) {
 //todo
+return string;
 }
