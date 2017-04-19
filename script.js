@@ -5,10 +5,10 @@ function reset() {
 }
 
 //Function reverses the input string
-function robert(string) {
+//function robert(string) {
   //todo
-  return string;
-}
+//  return string;
+//}
 
 //Function shuffles the input string
 function james(str){
