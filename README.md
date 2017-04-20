@@ -9,7 +9,7 @@ HTML and CSS complete.
 
 Swap Letters is now working.
 
-Reverse Letters coming soon...
+Reverse Letters is now working.
 
 Shuffle Letters is now working.
 
