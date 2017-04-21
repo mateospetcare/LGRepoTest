@@ -35,7 +35,9 @@ for (var i = a - 1; i > 0; i--) {
 
 //swaps a->z, b->y and so on.
 function mateo(string) {
+  //swapped variable string to be returned
   var swappedWord = ""; 
+  //function swaps each letter, a->z, b->y...ect
     function eachLetterSwapped(letter){
       var startChar = 97;
       var endChar = 122; 
@@ -50,10 +52,10 @@ function mateo(string) {
         }
       swappedWord += String.fromCharCode(swapCharValue);
     }
-
+    //loops through string input and calls function
   for(var i = 0; i < string.length; i++){
     eachLetterSwapped(string[i]); 
   }
-  
+  //returns swapped variable; 
   return swappedWord
 }
